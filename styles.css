@@ -8,6 +8,8 @@
 
 :root {
   --very-dark-blue: #191826;
+  --orange: #fa7453;
+  --light-grey: #fcfaf9;
 }
 
 body {
@@ -36,10 +38,97 @@ header .company-logo {
 .hero-description {
   line-height: 26px;
   margin-top: 1.25rem;
-  margin-bottom: 4.25rem;
+  margin-bottom: 10.375rem;
+}
+
+.premium-eq-content-container {
+  background: url("./assets/bg-pattern-2.svg") no-repeat, var(--very-dark-blue);
+  background-position: center 0;
+  border-radius: 12px;
+  position: relative;
+  min-height: 600px;
 }
 
 .app-illustration {
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 208.97px;
   height: 430px;
+}
+
+.app-details-container {
+  background-color: var(--orange);
+  position: absolute;
+  top: 26.875rem;
+  padding: 0 2.25rem;
+  color: var(--light-grey);
+  border-radius: 12px;
+}
+
+.app-title {
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.app-description {
+  line-height: 28px;
+}
+
+.app-price {
+  font-weight: 700;
+  font-size: 4.063rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.per-month-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: block;
+  border: none;
+  border-radius: 12px;
+  width: 296px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 0.938rem 0;
+  cursor: pointer;
+}
+
+.ios-btn {
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+}
+
+.android-btn {
+  color: var(--very-dark-blue);
+  background-color: var(--light-grey);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+footer {
+  padding: 0 1.5rem;
+  margin-top: 28rem;
+}
+
+.footer-text {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  line-height: 26px;
+}
+
+.footer-email {
+  display: block;
+}
+
+.social-icons-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
 }
