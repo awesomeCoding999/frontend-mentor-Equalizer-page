@@ -132,3 +132,27 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+@media (min-width: 48em) {
+  header {
+    background: url("./assets/bg-pattern-1.svg") no-repeat,
+      url("./assets/bg-main-tablet.png") no-repeat;
+    background-position: top -50px right, -360px -380px;
+    background-size: 266px, auto;
+  }
+
+  .hero-tagline,
+  .hero-description {
+    width: 520px;
+  }
+
+  .hero-tagline {
+    font-size: 4rem;
+    line-height: 64px;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+}
