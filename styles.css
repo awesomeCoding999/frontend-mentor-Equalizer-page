@@ -155,4 +155,19 @@ footer {
     font-size: 1.125rem;
     line-height: 28px;
   }
+
+  .premium-eq-content-container {
+    margin: 0 2.063rem 0 2.438rem;
+  }
+
+  .app-illustration {
+    left: 11.25rem;
+  }
+
+  .app-details-container {
+    top: 130px;
+    right: 58px;
+    left: 210px;
+    padding: 0 3.75rem;
+  }
 }
