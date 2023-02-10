@@ -173,4 +173,24 @@ footer {
     left: 210px;
     padding: 0 3.75rem;
   }
+
+  footer {
+    margin-top: 10rem;
+  }
+
+  .social-text-and-icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-icons-container {
+    margin-top: -1.875rem;
+    margin-right: 0.938rem;
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
