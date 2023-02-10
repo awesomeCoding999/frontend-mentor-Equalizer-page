@@ -125,6 +125,9 @@ footer {
 
 .footer-email {
   display: block;
+  text-decoration: none;
+  color: var(--very-dark-blue);
+  font-weight: 700;
 }
 
 .social-icons-container {
