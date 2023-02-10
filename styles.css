@@ -9,7 +9,9 @@
 :root {
   --very-dark-blue: #191826;
   --orange: #fa7453;
+  --gold: #ffb964;
   --light-grey: #fcfaf9;
+  --sky-blue: #66e2dc;
 }
 
 body {
@@ -105,11 +107,19 @@ header .company-logo {
   color: var(--light-grey);
 }
 
+.ios-btn:hover {
+  background-color: var(--sky-blue);
+}
+
 .android-btn {
   color: var(--very-dark-blue);
   background-color: var(--light-grey);
   margin-top: 1rem;
   margin-bottom: 3rem;
+}
+
+.android-btn:hover {
+  background-color: var(--gold);
 }
 
 footer {
